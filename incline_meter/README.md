@@ -3,4 +3,4 @@ Utility for displaying angle of elevation using a lightweight linux setup: orang
 Both the sensor board and display are connected on the same bus to make the HW setup as light as possible.
 
 ## End result is this:
-![Image of full setup](https://imgur.com/VW0zwLN)
+![Image of full setup](https://i.imgur.com/VW0zwLN.jpg)
