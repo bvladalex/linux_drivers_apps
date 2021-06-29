@@ -9,7 +9,7 @@ The user can select one of the 2 options to increment and decrement wiper positi
 2) Using push-buttons: uses 2 interrupts from gpios declared under the device in the device-tree; below is a snippet from RASPI4 DTB I use; I have 2 push buttons connected to GPIOs 23 and 24:
 
 As you can see I use the mcp4231 10k version but feel free to use any of the supported devices in the drive.
-
+```
 digpot: mcp4151@0 {
 		compatible = "microchip,mcp4231-103";
 		spi-max-frequency = <1000000>;
@@ -29,3 +29,4 @@ digpot: mcp4151@0 {
 			trigger = "falling";
 		};
 	};
+```
